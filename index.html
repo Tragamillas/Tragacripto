@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso interactivo sobre historia familiar - Aprende a investigar y documentar tu árbol genealógico">
+    <title>Historia Familiar - Curso Interactivo</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23D4A574'>🌳</text></svg>">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">🌳 Historia Familiar</h1>
+                <p class="tagline">Descubre y documenta tu legado familiar</p>
+            </div>
+            <div class="user-profile">
+                <span id="progressPercent" class="progress-badge">0%</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <nav class="nav-menu">
+                    <h3>Módulos</h3>
+                    <ul id="modulesNav" class="modules-list">
+                        <!-- Generado dinámicamente -->
+                    </ul>
+                </nav>
+                <div class="sidebar-footer">
+                    <button id="resetBtn" class="btn btn-secondary btn-small">Reiniciar curso</button>
+                </div>
+            </aside>
+
+            <!-- Content Area -->
+            <section class="content-area">
+                <!-- Welcome Section -->
+                <div id="welcomeSection" class="section visible">
+                    <div class="welcome-card">
+                        <h2>Bienvenido al Curso de Historia Familiar</h2>
+                        <p>Este curso interactivo te guiará a través del fascinante proceso de investigar, documentar y preservar la historia de tu familia.</p>
+                        
+                        <div class="objectives">
+                            <h3>Lo que aprenderás:</h3>
+                            <ul>
+                                <li>📚 Técnicas de investigación genealógica</li>
+                                <li>🗂️ Cómo organizar y documentar registros</li>
+                                <li>🌳 Construir tu árbol genealógico</li>
+                                <li>💾 Métodos para preservar historias familiares</li>
+                                <li>🔍 Fuentes y recursos para tu investigación</li>
+                            </ul>
+                        </div>
+
+                        <div class="course-structure">
+                            <h3>Estructura del Curso</h3>
+                            <p id="moduleCount">El curso contiene múltiples módulos con lecciones, ejercicios prácticos y desafíos.</p>
+                        </div>
+
+                        <button id="startBtn" class="btn btn-primary btn-large">Comenzar Curso</button>
+                    </div>
+                </div>
+
+                <!-- Lesson Section -->
+                <div id="lessonSection" class="section">
+                    <div class="lesson-header">
+                        <button class="btn btn-icon" id="backBtn">← Atrás</button>
+                        <div class="breadcrumb">
+                            <span id="moduleBreadcrumb"></span>
+                            <span class="separator">/</span>
+                            <span id="lessonBreadcrumb"></span>
+                        </div>
+                    </div>
+
+                    <article class="lesson-content">
+                        <h2 id="lessonTitle"></h2>
+                        <div id="lessonBody" class="lesson-body"></div>
+
+                        <!-- Interactive Exercise -->
+                        <div id="exerciseContainer" class="exercise-container" style="display: none;">
+                            <div class="exercise-header">
+                                <h3>🎯 Ejercicio Práctico</h3>
+                            </div>
+                            <div id="exerciseContent"></div>
+                        </div>
+                    </article>
+
+                    <!-- Lesson Navigation -->
+                    <div class="lesson-navigation">
+                        <button id="prevLessonBtn" class="btn btn-secondary" style="display: none;">← Lección anterior</button>
+                        <div class="lesson-progress">
+                            <div class="progress-bar">
+                                <div id="lessonProgressBar" class="progress-fill"></div>
+                            </div>
+                            <span id="lessonProgressText" class="progress-text"></span>
+                        </div>
+                        <button id="nextLessonBtn" class="btn btn-primary" style="display: none;">Siguiente lección →</button>
+                    </div>
+                </div>
+
+                <!-- Module Summary -->
+                <div id="summarySection" class="section">
+                    <div class="summary-card">
+                        <h2 id="summaryTitle"></h2>
+                        <div id="summaryContent"></div>
+                        <div class="summary-actions">
+                            <button id="reviewModuleBtn" class="btn btn-secondary">Revisar módulo</button>
+                            <button id="nextModuleBtn" class="btn btn-primary">Siguiente módulo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Completion Section -->
+                <div id="completionSection" class="section">
+                    <div class="completion-card">
+                        <div class="completion-icon">🎉</div>
+                        <h2>¡Felicitaciones!</h2>
+                        <p>Has completado el curso de Historia Familiar.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value" id="totalLessons">0</span>
+                                <span class="stat-label">Lecciones completadas</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="totalTime">0h</span>
+                                <span class="stat-label">Tiempo dedicado</span>
+                            </div>
+                        </div>
+                        <button id="restartBtn" class="btn btn-primary">Comenzar nuevamente</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Historia Familiar - Curso Interactivo | <a href="#" target="_blank">Contacto</a></p>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

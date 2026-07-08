@@ -1,0 +1,23 @@
+{
+  "name": "historia-familiar-curso",
+  "version": "1.0.0",
+  "description": "Un curso interactivo sobre investigación genealógica e historia familiar",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server"
+  },
+  "keywords": [
+    "genealogía",
+    "historia familiar",
+    "árbol genealógico",
+    "educación",
+    "curso interactivo"
+  ],
+  "author": "Tragamillas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tragamillas/Tragacripto.git"
+  }
+}

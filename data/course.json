@@ -1,0 +1,138 @@
+{
+  "title": "Historia Familiar",
+  "description": "Aprende a investigar y documentar tu árbol genealógico",
+  "modules": [
+    {
+      "id": "intro",
+      "title": "Introducción a la Genealogía",
+      "icon": "📚",
+      "lessons": [
+        {
+          "id": "lesson1",
+          "title": "¿Qué es la Genealogía?",
+          "content": "<p>La genealogía es el estudio de la historia familiar y las líneas de descendencia. Es una búsqueda apasionante que nos permite conectar con nuestras raíces y comprender cómo nuestros antepasados moldearon nuestra historia.</p><p><strong>¿Por qué investigar nuestra historia familiar?</strong></p><ul><li>Conectar con nuestras raíces culturales</li><li>Comprender mejor nuestra identidad</li><li>Preservar historias importantes</li><li>Crear un legado para futuras generaciones</li><li>Descubrir conexiones con otros miembros de la familia</li></ul><p>Cada familia tiene una historia única que contar. A través de la investigación genealógica, podemos desenterrar historias fascinantes sobre nuestros antepasados.</p>",
+          "exercise": {
+            "type": "reflection",
+            "question": "¿Cuál es la generación más antigua que recuerdas en tu familia? ¿Qué te gustaría saber sobre ellos?",
+            "placeholder": "Escribe tu respuesta aquí..."
+          }
+        },
+        {
+          "id": "lesson2",
+          "title": "Herramientas y Recursos Disponibles",
+          "content": "<p>Para investigar tu historia familiar necesitarás varios recursos. Afortunadamente, hay muchas herramientas disponibles tanto en línea como localmente.</p><h3>Recursos en línea principales</h3><ul><li><strong>Ancestry.com</strong> - La base de datos genealógica más grande del mundo con millones de registros</li><li><strong>FamilySearch.org</strong> - Gratuito y mantenido por la Iglesia de Jesucristo de los Santos de los Últimos Días</li><li><strong>FindMyPast</strong> - Especializado en registros británicos e irlandeses</li><li><strong>MyHeritage</strong> - Plataforma popular con herramientas de construcción de árbol</li></ul><h3>Recursos locales</h3><ul><li>Archivos civiles municipales</li><li>Iglesias y registros religiosos</li><li>Bibliotecas locales y municipales</li><li>Notarías</li><li>Periódicos antiguos digitalizados</li><li>Cementerios y registros de defunciones</li></ul><h3>Documentos importantes</h3><ul><li>Certificados de nacimiento, matrimonio y defunción</li><li>Registros de impuestos</li><li>Cartas de naturalización</li><li>Pasaportes</li></ul>",
+          "exercise": {
+            "type": "checklist",
+            "items": [
+              "Crear cuenta gratuita en FamilySearch.org",
+              "Explorar los archivos civiles de tu municipio",
+              "Hacer una lista de documentos necesarios que podrías tener en casa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Técnicas de Investigación Efectiva",
+      "icon": "🔍",
+      "lessons": [
+        {
+          "id": "lesson3",
+          "title": "Recopilación de Información Familiar Inicial",
+          "content": "<p>El primer paso en cualquier investigación genealógica es recopilar toda la información que ya tienes en tu familia. Este es el fundamento de todo tu trabajo.</p><h3>Información a recopilar de cada persona:</h3><ul><li>Nombres completos (incluyendo nombres de soltera y apodos)</li><li>Fechas exactas: nacimiento, matrimonio y fallecimiento</li><li>Lugares: dónde nacieron, se casaron y murieron</li><li>Ocupaciones y profesiones</li><li>Historias y anécdotas familiares</li><li>Fotos y documentos</li><li>Relaciones con otros miembros de la familia</li></ul><h3>Consejos importantes:</h3><ul><li>Comienza con lo que sabes (generalmente contigo) y trabaja hacia el pasado</li><li>Verifica cada dato con múltiples fuentes</li><li>Mantén notas sobre dónde encontraste cada información</li><li>No asumas información - busca documentación</li><li>Habla con parientes mayores - tienen historias valiosas</li></ul>",
+          "exercise": {
+            "type": "form",
+            "fields": [
+              {
+                "label": "Nombre completo de un pariente",
+                "type": "text"
+              },
+              {
+                "label": "Tu relación con esta persona",
+                "type": "text"
+              },
+              {
+                "label": "Fecha aproximada de nacimiento",
+                "type": "date"
+              }
+            ]
+          }
+        },
+        {
+          "id": "lesson4",
+          "title": "Búsqueda en Registros Públicos",
+          "content": "<p>Los registros públicos son la columna vertebral de la investigación genealógica. Estos documentos oficiales proporcionan pruebas documentales de los hechos sobre nuestros antepasados.</p><h3>Tipos de registros disponibles:</h3><ul><li><strong>Registros vitales:</strong> Nacimientos, matrimonios, defunciones</li><li><strong>Registros censales:</strong> Enumeraciones de población cada 10 años</li><li><strong>Registros notariales:</strong> Testamentos, inventarios, compra-venta de propiedades</li><li><strong>Registros militares:</strong> Alistamientos, licencias, pensiones</li><li><strong>Registros eclesiásticos:</strong> Bautismos, matrimonios, entierros</li></ul><h3>Dónde encontrar estos registros:</h3><ul><li>Archivos municipales - generalmente en la alcaldía</li><li>Archivos diocesanos - en las catedrales o sedes religiosas</li><li>Archivos privados - algunos registros importantes están digitalizados en línea</li><li>Museos y bibliotecas locales</li></ul>",
+          "exercise": {
+            "type": "checklist",
+            "items": [
+              "Identificar el archivo municipal más cercano a tu hogar",
+              "Investigar qué registros tienen disponibles",
+              "Elaborar una solicitud de certificados para un pariente"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "documentation",
+      "title": "Documentación y Organización",
+      "icon": "🗂️",
+      "lessons": [
+        {
+          "id": "lesson5",
+          "title": "Creando tu Árbol Genealógico",
+          "content": "<p>Una vez que tengas información sobre tu familia, es hora de organizarla visualmente. Un árbol genealógico es la forma más efectiva de mostrar las relaciones familiares.</p><h3>Estructura de un árbol genealógico:</h3><ul><li><strong>Disposición:</strong> De arriba hacia abajo (tradicional) o de izquierda a derecha</li><li><strong>Generaciones:</strong> Claramente separadas por niveles</li><li><strong>Símbolos:</strong> Rectángulos para personas, líneas para conexiones</li><li><strong>Información:</strong> Nombres, fechas, lugares de cada persona</li></ul><h3>Formatos disponibles:</h3><ul><li><strong>Papel:</strong> Dibujado a mano, impreso de fuentes en línea</li><li><strong>Digital:</strong> Usando software gratuito (Gramps, Reunion)</li><li><strong>En línea:</strong> Plataformas como Ancestry, MyHeritage, FamilySearch</li></ul><h3>Ventajas de cada formato:</h3><ul><li><strong>Papel:</strong> Fácil de compartir, visual, no requiere tecnología</li><li><strong>Software local:</strong> Privado, control total de los datos</li><li><strong>Online:</strong> Colaborativo, accesible desde cualquier lugar</li></ul>",
+          "exercise": {
+            "type": "reflection",
+            "question": "¿Qué formato prefieres para tu árbol genealógico y por qué? ¿Con quién te gustaría compartirlo?",
+            "placeholder": "Mi preferencia es..."
+          }
+        },
+        {
+          "id": "lesson6",
+          "title": "Sistema de Organización y Archivo",
+          "content": "<p>Un buen sistema de organización es esencial para mantener tu investigación en orden y poder encontrar información rápidamente.</p><h3>Sistema de carpetas recomendado:</h3><ul><li><strong>Por apellido:</strong> Una carpeta por cada línea familiar</li><li><strong>Por generación:</strong> Subdividir por antepasado directo</li><li><strong>Por tipo de documento:</strong> Registros vitales, testamentos, fotos, etc.</li></ul><h3>Cómo mantener registros:</h3><ul><li>Usar una base de datos o hoja de cálculo</li><li>Anotar la fuente de cada dato encontrado</li><li>Mantener copias de documentos importantes</li><li>Crear un sistema de indexación</li><li>Actualizar regularmente con nuevos hallazgos</li></ul><h3>Respaldo y seguridad:</h3><ul><li>Mantener copias de seguridad en la nube</li><li>Guardar documentos originales en lugar seguro</li><li>Crear copias digitales de documentos físicos</li><li>Documentar acceso y cambios a la información</li></ul>",
+          "exercise": {
+            "type": "checklist",
+            "items": [
+              "Crear un sistema de carpetas para mi investigación",
+              "Establecer un formato para registrar fuentes",
+              "Hacer una copia de seguridad de documentos importantes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Tópicos Avanzados",
+      "icon": "🚀",
+      "lessons": [
+        {
+          "id": "lesson7",
+          "title": "Investigación de Líneas Difíciles",
+          "content": "<p>No toda la investigación genealógica es directa. A veces nos encontramos con parientes cuyo rastro es difícil de seguir.</p><h3>Desafíos comunes:</h3><ul><li><strong>Nombres comunes:</strong> Muchas personas con el mismo nombre en la misma época</li><li><strong>Cambios de nombre:</strong> Inmigrantes que cambiaban sus nombres</li><li><strong>Documentación incompleta:</strong> Registros perdidos, destruidos o nunca creados</li><li><strong>Falta de información:</strong> No saber dónde buscaron</li><li><strong>Discrepancias:</strong> Información conflictiva en diferentes fuentes</li></ul><h3>Estrategias de resolución:</h3><ul><li>Buscar en múltiples variantes de nombres</li><li>Investigar por contexto: hermanos, compañeros de viaje, vecinos</li><li>Usar registros circunstanciales: impuestos, milicia, iglesia</li><li>Conectar con otros investigadores del mismo árbol</li><li>Considerar migraciones históricas y eventos políticos</li></ul>",
+          "exercise": {
+            "type": "reflection",
+            "question": "¿Hay algún pariente de tu árbol genealógico que sea difícil de encontrar? ¿Qué desafíos enfrentas?",
+            "placeholder": "Describe el desafío..."
+          }
+        },
+        {
+          "id": "lesson8",
+          "title": "Preservando tu Legado Familiar",
+          "content": "<p>La investigación genealógica no se trata solo de encontrar datos - se trata de preservar historias y crear un legado para las futuras generaciones.</p><h3>Formas de preservar la historia:</h3><ul><li><strong>Documentos digitales:</strong> Escanear fotos y documentos importantes</li><li><strong>Entrevistas de audio/video:</strong> Grabar historias de parientes mayores</li><li><strong>Libros de familia:</strong> Compilar información en un libro impreso</li><li><strong>Sitio web familiar:</strong> Crear un espacio en línea para compartir</li><li><strong>Árbol genealógico público:</strong> Compartir en plataformas como FamilySearch</li></ul><h3>Consejos para entrevistas:</h3><ul><li>Preparar preguntas abiertas de antemano</li><li>Permitir que la conversación fluya naturalmente</li><li>Grabar con consentimiento (audio o video)</li><li>Preguntar sobre historias específicas, no solo datos</li><li>Documentar la fecha, lugar y persona entrevistada</li></ul><h3>Compartiendo tu investigación:</h3><ul><li>Respeta la privacidad de personas vivas</li><li>Proporciona acceso a parientes interesados</li><li>Considera publicar en plataformas genealógicas</li><li>Mantén la información actualizada y accesible</li></ul>",
+          "exercise": {
+            "type": "checklist",
+            "items": [
+              "Planificar una entrevista con un pariente mayor",
+              "Diseñar un sistema para preservar fotos y documentos",
+              "Considerar cómo compartir mi investigación con la familia"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

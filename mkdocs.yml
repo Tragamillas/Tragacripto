@@ -1,0 +1,9 @@
+# Configuración para GitHub Pages
+site_name: Historia Familiar - Curso Interactivo
+theme: material
+docs_dir: .
+site_dir: docs
+nav:
+  - Inicio: index.html
+plugins:
+  - search

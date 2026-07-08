@@ -7,69 +7,203 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# 🌳 Historia Familiar - Curso Interactivo
 
-_Get started using GitHub in less than an hour._
+Un recurso didáctico web interactivo diseñado para enseñarte cómo investigar, documentar y preservar la historia de tu familia.
 
-</header>
+## 📚 Descripción
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+Este curso te guiará a través del fascinante proceso de la investigación genealógica. Aprenderás técnicas prácticas, descubrirás recursos valiosos y construirás tu propio árbol genealógico. Cada módulo incluye lecciones teóricas y ejercicios prácticos para reforzar tu aprendizaje.
 
-## Step 1: Create a branch
+### ¿Qué aprenderás?
 
-_Welcome to "Introduction to GitHub"! :wave:_
+- 📚 **Fundamentos de la genealogía** - Conceptos básicos y por qué es importante investigar tu historia familiar
+- 🔍 **Técnicas de investigación** - Cómo encontrar y verificar información sobre tus antepasados
+- 🗂️ **Documentación y organización** - Métodos para organizar y documentar tu investigación
+- 🚀 **Tópicos avanzados** - Estrategias para investigaciones difíciles y preservación del legado familiar
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+## 🚀 Comenzar
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+### Opción 1: En línea (Recomendado)
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+Visita el sitio web del curso:
+- [Historia Familiar - Versión en línea](https://tragamillas.github.io/Tragacripto/) (una vez configurado GitHub Pages)
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+### Opción 2: Localmente
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+1. Clona este repositorio:
+```bash
+git clone https://github.com/Tragamillas/Tragacripto.git
+cd Tragacripto
+```
 
-![profile-readme-example](/images/profile-readme-example.png)
+2. Abre `index.html` en tu navegador:
+```bash
+# En macOS
+open index.html
 
-### :keyboard: Activity: Your first branch
+# En Linux
+xdg-open index.html
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+# O simplemente arrastra el archivo a tu navegador
+```
 
-   ![code-tab](/images/code-tab.png)
+3. Alternativamente, usa un servidor local:
+```bash
+# Con Python 3
+python -m http.server 8000
 
-3. Click on the **main** branch drop-down.
+# Con Node.js (si tienes http-server instalado)
+npx http-server
 
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
+# Luego abre: http://localhost:8000
+```
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+## 📖 Estructura del Curso
 
-   ![create-branch-button](/images/create-branch-button.png)
+### Módulos Disponibles
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+1. **Introducción a la Genealogía**
+   - ¿Qué es la genealogía?
+   - Herramientas y recursos disponibles
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+2. **Técnicas de Investigación Efectiva**
+   - Recopilación de información familiar
+   - Búsqueda en registros públicos
 
-<footer>
+3. **Documentación y Organización**
+   - Creando tu árbol genealógico
+   - Sistema de organización y archivo
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+4. **Tópicos Avanzados**
+   - Investigación de líneas difíciles
+   - Preservando tu legado familiar
+
+## 💾 Características
+
+- ✅ **Interactivo** - Ejercicios prácticos en cada lección
+- ✅ **Progreso automático** - Se guarda tu avance en el navegador
+- ✅ **Responsive** - Funciona en desktop, tablet y móvil
+- ✅ **Sin requisitos** - Funciona sin necesidad de servidor backend
+- ✅ **Contenido estructurado** - Lecciones claras y bien organizadas
+
+## 📊 Sistema de Progreso
+
+El curso automaticamente guarda tu progreso:
+- Tu posición actual en el curso
+- Lecciones completadas
+- Tiempo dedicado al aprendizaje
+
+Tu progreso se almacena localmente en tu navegador. Puedes reiniciar el curso en cualquier momento.
+
+## 📁 Estructura de Archivos
+
+```
+Tragacripto/
+├── index.html              # Página principal del curso
+├── assets/
+│   ├── css/
+│   │   └── styles.css     # Estilos del sitio
+│   └── js/
+│       └── app.js         # Lógica de la aplicación
+├── data/
+│   └── course.json        # Contenido del curso
+├── lessons/               # (Opcional) Archivos de lecciones adicionales
+├── images/                # Imágenes y recursos visuales
+├── README.md              # Este archivo
+└── LICENSE                # Licencia MIT
+```
+
+## 🛠️ Personalización
+
+### Agregar nuevas lecciones
+
+Edita `data/course.json` para añadir módulos o lecciones:
+
+```json
+{
+  "id": "nuevo-modulo",
+  "title": "Título del Módulo",
+  "icon": "📌",
+  "lessons": [
+    {
+      "id": "leccion1",
+      "title": "Título de la Lección",
+      "content": "Contenido HTML aquí",
+      "exercise": {
+        "type": "reflection",
+        "question": "Pregunta para el estudiante",
+        "placeholder": "Texto de ayuda"
+      }
+    }
+  ]
+}
+```
+
+### Tipos de ejercicios disponibles
+
+1. **reflection** - Preguntas de reflexión abierta
+2. **checklist** - Listas de verificación
+3. **form** - Formularios con campos
+
+### Modificar estilos
+
+Los colores y estilos se definen en `assets/css/styles.css` usando variables CSS en `:root`.
+
+## 🌐 Desplegar en GitHub Pages
+
+1. Asegúrate que el repositorio sea público
+2. Ve a Settings → Pages
+3. Selecciona "main" como rama de origen
+4. Selecciona "root" como carpeta de origen
+5. El sitio estará disponible en: `https://[usuario].github.io/Tragacripto/`
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Para cambios significativos:
+
+1. Fork el repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/mi-feature`)
+3. Commit tus cambios (`git commit -am 'Agregar nueva feature'`)
+4. Push a la rama (`git push origin feature/mi-feature`)
+5. Abre un Pull Request
+
+## 📧 Contacto
+
+Para preguntas o sugerencias sobre el curso, por favor abre una issue en el repositorio.
+
+## 🎓 Recursos Adicionales
+
+### Sitios de interés para genealogía
+
+- [FamilySearch.org](https://www.familysearch.org) - Base de datos genealógica gratuita
+- [Ancestry.com](https://www.ancestry.com) - La mayor base de datos genealógica
+- [MyHeritage.com](https://www.myheritage.com) - Plataforma con herramientas de árboles
+
+### Archivos locales (Ejemplos)
+
+- Archivos Municipales
+- Registros Parroquiales
+- Bibliotecas Locales
+- Notarías
+
+## 📈 Roadmap
+
+- [ ] Agregar más módulos avanzados
+- [ ] Incluir videos tutoriales
+- [ ] Crear ejercicios interactivos con validación
+- [ ] Agregar sistema de certificados
+- [ ] Traducción a otros idiomas
+- [ ] Integración con APIs genealógicas
+- [ ] Foro de comunidad
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+**Última actualización:** 2024
+**Versión:** 1.0.0
 
 </footer>
